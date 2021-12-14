@@ -66,7 +66,7 @@ from Maxrobot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
-Hey there!👋  My name is Max Robot ⚡️
+Hey there!👋  My name is Alita Robot ⚡️
 I can manage your  group with lots of useful features, feel free to add me to your group
 """
 
@@ -83,7 +83,7 @@ Heya, glad to hear you want to donate !
 You can donate to the original writer's of the Base code,
 Support them [Youtube](https://www.youtube.com/channel/UCLziWEeJ-VZuUnZaFUIYTOA),
 """
-reply_sticker = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
+reply_sticker = "CAACAgUAAxkBAAIxp2G4sRn_cqJHOF6sHAkYf_tkC0U2AAJMBAACuGbJVYz6jytzzOZaIwQ"   
 
 BUTTONS = [
        [
@@ -92,13 +92,13 @@ BUTTONS = [
    
     [
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/MaxrobotSupport"),
+            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Alitabotupdates"),
     ],
    
     [
         InlineKeyboardButton(text="Bot Updates", url=f"https://t.me/SL_Tech_World"),
         InlineKeyboardButton(
-            text="Rᴇᴘᴏ 📦", url=f"https://github.com/maxsupun"
+            text="Rᴇᴘᴏ 📦", url=f"https://github.com/AkashOshada"
         ),
     ],
     [
@@ -109,7 +109,7 @@ BUTTONS = [
     ],
   [
         InlineKeyboardButton(
-            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/Max123robot?startgroup=true"),
+            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/mxalitagirlbot?startgroup=true"),
     ], 
 ]
 
@@ -124,11 +124,11 @@ MENU = [
     ],
      [
         InlineKeyboardButton(
-            text="Uᴘᴅᴀᴛᴇs", url ="https://t.me/MaxRobot_updates"),
+            text="Uᴘᴅᴀᴛᴇs", url ="https://t.me/Alitabotupdatesc"),
     ],
     [
         InlineKeyboardButton(
-            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/Max123robot?startgroup=true"),
+            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/mxalitagirlbot?startgroup=true"),
     ],
 ]
 
@@ -255,7 +255,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Updates", url ="https://t.me/MaxRobot_updates")]],
+                [[InlineKeyboardButton(text="Updates", url ="https://t.me/Alitabotupdatesc")]],
             ),
         )
     
@@ -279,7 +279,7 @@ def error_handler(update, context):
 
     if len(message) >= 4096:
         message = message[:4096]
-    context.bot.send_message(chat_id=-1001589738293, text=message, parse_mode=ParseMode.HTML)
+    context.bot.send_message(chat_id=-1001625084182, text=message, parse_mode=ParseMode.HTML)
 
 
 def error_callback(update: Update, context: CallbackContext):
@@ -388,15 +388,15 @@ def Maxrobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🐞 Bugs", url="https://t.me/MaxRobotSupport"
+                            text="🐞 Bugs", url="https://t.me/Alitabotupdates"
                         ),
                         InlineKeyboardButton(
-                            text="🗣 Updates", url="https://t.me/MaxRobot_updates"
+                            text="🗣 Updates", url="https://t.me/Alitabotupdatesc"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🤕 Donate", url="http://t.me/Max123Robot?start=/donate"
+                            text="🤕 Donate", url="http://t.me/mxalitagirlbot?start=/donate"
                         ),
                         InlineKeyboardButton(
                             text="🔎 Inline search", switch_inline_query_current_chat=""
@@ -477,12 +477,12 @@ def Maxrobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Owener channel ", url="https://t.me/SL_Tech_Worldchat"),
-                    InlineKeyboardButton(text="Owner group ", url="https://t.me/SL_Tech_Worldchat"),
+                    InlineKeyboardButton(text="Owener channel ", url="https://t.me/Micromyxchanel"),
+                    InlineKeyboardButton(text="Owner group ", url="https://t.me/Micromyxgroup"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/MaxrobotSupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Maxrobot_updates"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Alitabotupdates"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Alitabotupdatesc"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto"),
@@ -495,14 +495,14 @@ def Maxrobot_about_callback(update, context):
         query.message.edit_text(
             text=f"* CREDITS  FOR @TheElizaBot🇱🇰  DEV *\n"
             f"\n Here you can find information about the bots I coded and the people who helped me create Maxrobot"
-            f"\n Special credits [Supun Max](https://github.com/maxsupun) "
+            f"\n Special credits [Akash Oshada](https://github.com/AkashOshada) "
             f"\n Finally my special thanks to you for using this bot",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Maxrobot", url="https://t.me/SL_Tech_Worldchat"),
+                    InlineKeyboardButton(text="Alitarobot", url="https://t.me/Alitabotupdates"),
                     InlineKeyboardButton(text="Daisyx bot", url="https://github.com/TeamDaisyX/Daisy-OLD"),
                    
                  ],   
