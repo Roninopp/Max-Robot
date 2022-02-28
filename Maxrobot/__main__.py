@@ -66,7 +66,7 @@ from Maxrobot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
-Hey there!👋  My name is Alita Robot ⚡️
+Hey there!👋  My name is Samurai robo⚡️
 I can manage your  group with lots of useful features, feel free to add me to your group
 """
 
@@ -81,7 +81,7 @@ The following functions will helpful to you to manage your groups
 DONATE_STRING = """
 Heya, glad to hear you want to donate !
 You can donate to the original writer's of the Base code,
-Support them [Youtube](https://www.youtube.com/channel/UCLziWEeJ-VZuUnZaFUIYTOA),
+Support them [Youtube](https://@RONIN_FIGHTERS_FD),
 """
 reply_sticker = "CAACAgUAAxkBAAIxp2G4sRn_cqJHOF6sHAkYf_tkC0U2AAJMBAACuGbJVYz6jytzzOZaIwQ"   
 
@@ -92,13 +92,13 @@ BUTTONS = [
    
     [
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Alitabotupdates"),
+            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Roninopp"),
     ],
    
     [
-        InlineKeyboardButton(text="Bot Updates", url=f"https://t.me/SL_Tech_World"),
+        InlineKeyboardButton(text="Bot Updates", url=f"https://t.me/Roninopp"),
         InlineKeyboardButton(
-            text="Rᴇᴘᴏ 📦", url=f"https://github.com/AkashOshada"
+            text="Rᴇᴘᴏ 📦", url=f"https://github.com/Roninopp"
         ),
     ],
     [
